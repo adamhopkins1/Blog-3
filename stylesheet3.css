@@ -1,0 +1,30 @@
+/* Container2 class element for the styling portion of the footer 
+          width,color, and font-family for the footer */
+.container2 {
+  background: #dc143c;
+  border-radius: 3px;
+  width: 98%;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+/* footer for bottom portion of page */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  top: 25%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .footer {
+    width: 100%;
+    margin-top: 0;
+  }
+}

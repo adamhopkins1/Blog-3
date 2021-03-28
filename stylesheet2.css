@@ -1,0 +1,48 @@
+/* Code in CSS for content for the webpage */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* img placeholder in the "card" class section of the webpage
+  
+  url("../IMAGES/A_Hero\'s_Death_Fontaines_DC.jpg";*/
+.imgcard {
+  /* background-image: url("../IM AGES/A Hero's Death.png"); */
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 20px;
+}
+
+.imgcard2 {
+  /* background-image: url("../IMAGES/ArcadeFireFuneralCover.jpg"); */
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 20px;
+}
+
+.imgcard3 {
+  background-image: url("..IMAGES/CTB.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 20px;
+}
+
+/*Places a card styled paragraph page in the article section of the page  */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats of image from paragraph */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

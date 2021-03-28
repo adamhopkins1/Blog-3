@@ -1,0 +1,89 @@
+/* Header Body  In CSS  */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  margin: 0;
+}
+
+/* Header Styling in CSS  */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #dc143c;
+  color: white;
+  font-size: 40px;
+}
+
+.h1,
+h1 {
+  font-size: 40px;
+}
+
+/* Sidebar Code */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1e90ff;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000;
+  display: block;
+}
+
+.sidebar a.active {
+  background-color: #ff8c1e;
+  color: white;
+}
+
+.sidebar a:hover {
+  background-color: #ff8c1e;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+/* Responsive css code to make the site work on mobile devices */
+@media screen and (max-width: 450px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+
+  @media screen and (max-width: 600px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+}
