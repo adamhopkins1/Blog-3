@@ -9,25 +9,20 @@ body {
   background: #f1f1f1;
 }
 
-/* img placeholder in the "card" class section of the webpage
-  
-  url("../IMAGES/A_Hero\'s_Death_Fontaines_DC.jpg";*/
+/* img placeholder in the "card" class section of the webpage*/
 .imgcard {
-  /* background-image: url("../IM AGES/A Hero's Death.png"); */
   background-repeat: no-repeat;
   width: 100%;
   padding: 20px;
 }
 
 .imgcard2 {
-  /* background-image: url("../IMAGES/ArcadeFireFuneralCover.jpg"); */
   background-repeat: no-repeat;
   width: 100%;
   padding: 20px;
 }
 
 .imgcard3 {
-  background-image: url("..IMAGES/CTB.jpg");
   background-repeat: no-repeat;
   width: 100%;
   padding: 20px;
