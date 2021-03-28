@@ -1,0 +1,169 @@
+/* Header Body  In CSS  */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  margin: 0;
+}
+
+/* Header Styling in CSS  */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #dc143c;
+  color: white;
+  font-size: 40px;
+}
+
+.h1,
+h1 {
+  font-size: 40px;
+}
+
+/* Sidebar Code */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1e90ff;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000;
+  display: block;
+}
+
+.sidebar a.active {
+  background-color: #ff8c1e;
+  color: white;
+}
+
+.sidebar a:hover {
+  background-color: #ff8c1e;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+/* Responsive css code to make the site work on mobile devices */
+@media screen and (max-width: 450px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+
+  @media screen and (max-width: 600px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+}
+
+/* Code in CSS for content for the webpage */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* img placeholder in the "card" class section of the webpage
+  
+  url("../IMAGES/A_Hero\'s_Death_Fontaines_DC.jpg";*/
+.imgcard {
+  /* background-image: url("../IM AGES/A Hero's Death.png"); */
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 20px;
+}
+
+.imgcard2 {
+  /* background-image: url("../IMAGES/ArcadeFireFuneralCover.jpg"); */
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 20px;
+}
+
+.imgcard3 {
+  background-image: url("..IMAGES/CTB.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 20px;
+}
+
+/*Places a card styled paragraph page in the article section of the page  */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats of image from paragraph */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Container2 class element for the styling portion of the footer 
+          width,color, and font-family for the footer */
+.container2 {
+  background: #dc143c;
+  border-radius: 3px;
+  width: 98%;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+/* footer for bottom portion of page */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  top: 25%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .footer {
+    width: 100%;
+    margin-top: 0;
+  }
+}
